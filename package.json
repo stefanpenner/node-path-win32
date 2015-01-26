@@ -6,12 +6,9 @@
   "keywords": ["path"],
   "main": "index.js",
   "scripts": {
-    "test": "mochi"
+    "test": "node test/test-path"
   },
   "repository": "git@github.com:jden/node-path-posix.git",
   "license": "ISC",
-  "readmeFilename": "README.md",
-  "devDependencies": {
-    "mochi": "0.3.0"
-  }
+  "readmeFilename": "README.md"
 }
