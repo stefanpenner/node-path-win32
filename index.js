@@ -109,8 +109,8 @@ function win32StatPath(path) {
       device = result[1] || '',
       isUnc = !!device && device[1] !== ':';
   return {
-    device,
-    isUnc,
+    device: device,
+    isUnc: isUnc,
     isAbsolute: isUnc || !!result[2], // UNC paths are always absolute
     tail: result[3]
   };
