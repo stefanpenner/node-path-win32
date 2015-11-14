@@ -1,7 +1,7 @@
 {
   "name": "path-win32",
   "author": "stefanpenner <stefan.penner@gmail.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "win32-specific core path module",
   "keywords": ["path"],
   "main": "index.js",
