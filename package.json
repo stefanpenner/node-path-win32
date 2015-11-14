@@ -1,14 +1,15 @@
 {
-  "name": "path-posix",
-  "author": "jden <jason@denizac.org>",
+  "name": "path-win32",
+  "author": "stefanpenner <stefan.penner@gmail.com>",
   "version": "1.0.0",
-  "description": "posix-specific core path module",
+  "description": "win32-specific core path module",
   "keywords": ["path"],
   "main": "index.js",
   "scripts": {
-    "test": "node test/test-path"
+    "test": "node test/test-path",
+    "test:debug": "node debug test/test-path"
   },
-  "repository": "git@github.com:jden/node-path-posix.git",
+  "repository": "git@github.com:stefanpenner/node-path-posix.git",
   "license": "ISC",
   "readmeFilename": "README.md"
 }
